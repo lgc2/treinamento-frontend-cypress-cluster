@@ -1,5 +1,9 @@
 {
   "baseUrl": "https://www.saucedemo.com",
   "testFiles": "**/*.{feature,features}",
-  "chromeWebSecurity": false
+  "chromeWebSecurity": false,
+  "env": {
+    "usuarioValido": "standard_user",
+    "senhaValida": "secret_sauce"
+  }
 }

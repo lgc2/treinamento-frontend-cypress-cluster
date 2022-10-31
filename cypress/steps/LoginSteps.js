@@ -21,5 +21,3 @@ When(/^informo credenciais inválidas$/, (datatable) => {
 Then(/^devo visualizar a mensagem "([^"]*)"$/, (mensagemDeErro) => {
 	LoginPage.verificarAlertaDeCredenciaisInvalidas(mensagemDeErro)
 })
-
-

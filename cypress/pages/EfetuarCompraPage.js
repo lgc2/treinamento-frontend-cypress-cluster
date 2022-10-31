@@ -65,6 +65,4 @@ export default new class EfetuarCompraPage {
       .should('be.visible')
       .and('have.text', 'THANK YOU FOR YOUR ORDER')
   }
-
-
 }
